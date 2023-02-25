@@ -5,3 +5,8 @@ h1 {
 body {
     background-color :#C2F7BB;
 }
+
+header > nav {
+    text-align: center;
+    background-color: #da8b8b;
+}

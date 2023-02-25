@@ -10,6 +10,14 @@ header, footer {
     background-color: #94E0C9;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a:visited {
+    color: #0C3C06;
+}
+
 /* Header 
 -----------------------------------------------*/
 .index-h1 {
@@ -20,7 +28,6 @@ header, footer {
     font-family: 'Tilt Warp', cursive;
 }
 .site-list {
-    list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -31,9 +38,6 @@ header, footer {
     display: inline-block;
 }
 
-a:visited {
-    color: #0C3C06;
-}
 
 /* Main 
 -----------------------------------------------*/
@@ -65,7 +69,24 @@ a:visited {
     padding: 5px;
 }
 
-.must {
+.first-column {
+    width: 100%;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,80px);
+    gap: 15px;
+    /* place-items: top; */
+}
+
+.course-item {
+    border: solid purple 2px;   
+    margin: 0;
+    padding: 3px;
+    height: 100%;
+    border-radius: 10px;
     width: 100%;
 }
 

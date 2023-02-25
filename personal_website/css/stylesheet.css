@@ -19,3 +19,8 @@ body {
     text-align: center;
     background-color: #da8b8b;
 }
+
+.article {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}

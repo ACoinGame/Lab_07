@@ -19,6 +19,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.non-index-h1 {
+    font-family: 'Tilt Warp', cursive;
+}
 .site-list {
     list-style-type: none;
     padding: 0;

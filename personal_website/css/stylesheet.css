@@ -6,18 +6,25 @@ body {
     background-color :#C2F7BB;
 }
 
-/* header > nav {
-    text-align: center;
-    background-color: #da8b8b;
-} */
-
 .index-h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+header {
     text-align: center;
     background-color: #da8b8b;
+}
+
+.site-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.site-list a {
+    padding: 15px;
+    display: inline-block;
 }
 
 .article {

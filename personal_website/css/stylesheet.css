@@ -6,11 +6,16 @@ body {
     background-color :#C2F7BB;
 }
 
-header > nav {
+/* header > nav {
     text-align: center;
     background-color: #da8b8b;
-}
+} */
 
 .index-h1 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #da8b8b;
 }

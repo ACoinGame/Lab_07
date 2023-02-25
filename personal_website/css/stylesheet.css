@@ -41,10 +41,32 @@ a:visited {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 30px;
+    justify-content: center;
 }
 
 .owl-pic {
     border-radius: 100%;
+}
+
+.school-container {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 250px repeat(3, 80px);
+    grid-template-rows: repeat(2, 80px);
+    place-items: center;
+}
+
+.school-item1 {
+    grid-row-start: 1;
+}
+.school-item2 {
+    grid-row-start: 2;
+    display: block;
+    padding: 5px;
+}
+
+.must {
+    width: 100%;
 }
 
 /* Footer

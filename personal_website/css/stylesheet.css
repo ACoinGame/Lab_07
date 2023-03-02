@@ -123,14 +123,21 @@ a:visited {
     }
     .course-item {
         display: grid;
-        grid-template-columns: 20% 30% 50%;
+        grid-template-columns: 25% 25% 50%;
     }
     .course-item > a, .course-item > details {
         padding: 5px;
+        font-size: larger;
     }
 
-    .course-item > details {
+    .course-container p, .course-container dl{
+        padding-left: 0;
+    }
+
+    .course-item details {
         margin-top: 1em;
+        font-size: larger;
+        padding-left: 0;
     }
 
     .difficulty.level {

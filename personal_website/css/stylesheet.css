@@ -77,19 +77,21 @@ a:visited {
 
 .course-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,80px);
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3,80px); */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto-fit);
     gap: 15px;
-    /* place-items: top; */
+    margin-right: 20px;
 }
 
 .course-item {
     border: solid purple 2px;   
     margin: 0;
-    padding: 3px;
-    height: 100%;
+    padding: 5px;
+    /* height: 100%; */
     border-radius: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* Footer

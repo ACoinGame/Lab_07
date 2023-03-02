@@ -89,13 +89,18 @@ a:visited {
     border: solid purple 2px;   
     margin: 0;
     padding: 5px;
-    /* height: 100%; */
     border-radius: 10px;
-    /* width: 100%; */
 }
 
-.course-container p, .course-container li{
+.course-container p, .course-container dl{
     font-size: smaller;
+    padding-left: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+}
+
+.course-container details {
+    padding-left: 2em;
 }
 
 /* Footer

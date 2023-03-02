@@ -27,14 +27,16 @@ a:visited {
 .non-index-h1 {
     font-family: 'Tilt Warp', cursive;
 }
-.site-list {
+/* .site-list {
     padding: 0;
     display: flex;
     justify-content: center;
-}
+} */
+
 
 .site-list a {
-    padding: 15px;
+    margin: 10px;
+    padding: 3px;
     display: inline-block;
 }
 

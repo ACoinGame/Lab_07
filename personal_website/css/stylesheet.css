@@ -129,6 +129,10 @@ a:visited {
         padding: 5px;
     }
 
+    .course-item > details {
+        margin-top: 1em;
+    }
+
     .difficulty.level {
         order: 1;
         padding: 0;

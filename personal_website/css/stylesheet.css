@@ -87,18 +87,12 @@ a:visited {
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-rows: repeat(3,80px); */
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, auto-fit);
+    grid-template-rows: auto-fit;
     gap: 15px;
     margin-right: 20px;
 }
 
-@media screen and (min-width: 600px) {
-    .course-container {
-    grid-template-columns: repeat(3, auto-fit);
-    grid-template-rows: auto-fit;
-    }
-    
-}
+
 
 .course-item {
     border: solid purple 2px;   
@@ -118,8 +112,39 @@ a:visited {
     padding-left: 2em;
 }
 
+.difficulty.level {
+    margin-bottom: 5px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .course-container {
+        font-size: larger;
+    }
+    .course-item {
+        display: grid;
+        grid-template-columns: 20% 30% 50%;
+    }
+    .course-item > a, .course-item > details {
+        padding: 5px;
+    }
+
+    .difficulty.level {
+        order: 1;
+        padding: 0;
+        margin: 0;
+        padding-top: 20px;
+    }
+}
+
+
+
+
 /* Footer
 -----------------------------------------------*/
 footer {
     font-size: x-small;
 }
+
+
+

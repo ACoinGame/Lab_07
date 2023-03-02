@@ -94,6 +94,10 @@ a:visited {
     /* width: 100%; */
 }
 
+.course-container p, .course-container li{
+    font-size: smaller;
+}
+
 /* Footer
 -----------------------------------------------*/
 footer {

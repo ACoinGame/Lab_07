@@ -50,6 +50,10 @@ a:visited {
     justify-content: center;
 }
 
+.article p {
+    font-size: 1.3vw;
+    line-height: 1.4;
+}
 .owl-pic {
     border-radius: 100%;
 }
@@ -65,6 +69,7 @@ a:visited {
 .school-item1 {
     grid-row-start: 1;
 }
+
 .school-item2 {
     grid-row-start: 2;
     display: block;

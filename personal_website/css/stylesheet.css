@@ -124,10 +124,16 @@ a:visited {
     .course-item {
         display: grid;
         grid-template-columns: 25% 25% 50%;
+        column-gap: 20px;
     }
     .course-item > a, .course-item > details {
         padding: 5px;
         font-size: larger;
+    }
+
+    .course-item > a {
+        width: auto;
+        padding-right: 0;
     }
 
     .course-container p, .course-container dl{

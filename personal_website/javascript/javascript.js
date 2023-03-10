@@ -21,13 +21,3 @@ for (let i = 0; i < courseList.length; i++) {
         break
     }
 }
-
-
-
-// do {
-//     answer = prompt ("Are you human? ");
-//     // console.log(answer)
-// }
-// while (!isNaN(answer));
-// alert(answer);
-
